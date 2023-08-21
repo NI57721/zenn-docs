@@ -15,3 +15,17 @@ init:
 update:
 	npm install zenn-cli@latest
 
+## new: Create a new article
+new:
+	@read -p "Enter Slug:" slug; \
+	if [ -n "$$slug" ]; then \
+		npx zenn new:article --slug $$slug; \
+	else \
+		npx zenn new:article; \
+	fi
+
+## prev: Show the previews of the articles and watch the update
+prev:
+	xdg-open http://localhost:8000
+	npx zenn preview
+
