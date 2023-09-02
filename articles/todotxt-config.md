@@ -22,7 +22,7 @@ https://github.com/todotxt/todo.txt-cli
 
 # 環境
 使用している Todo.txt は以下の通りです。
-バージョンが`v@DEV_VERSION@`となっていますが、aur にあるバージョン 2.12.0 のものを使っています。
+バージョンが`v@DEV_VERSION@`となっていますが、aur にあるバージョン`2.12.0`のものを使っています。
 ```
 $ todo.sh -V
 TODO.TXT Command Line Interface v@DEV_VERSION@
