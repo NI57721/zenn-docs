@@ -62,9 +62,9 @@ todotxt 2.12.0.post2-2
 # 状態ファイルの場所を変更する
 タスクの進捗や履歴などは、デフォルトで`$HOME/.todo`に保存されます。
 これを変更するには設定ファイルで指定する必要があります。
-詳しくは`/etc/todo/config`に書いてあります。
+指定方法は`/etc/todo/config`に書いてあります。
 私の場合、設定ファイル(`$XDG_CONFIG_HOME/todo/config`)内に`export TODO_DIR=$XDG_STATE_HOME/todo`とだけ指定しています。
-```bash
+```bash:/etc/todo/config
 # Your todo.txt directory (this should be an absolute path)
 #export TODO_DIR="/Users/gina/Documents/todo"
 export TODO_DIR=~/.todo
@@ -73,6 +73,8 @@ export TODO_DIR=~/.todo
 export TODO_FILE="$TODO_DIR/todo.txt"
 export DONE_FILE="$TODO_DIR/done.txt"
 export REPORT_FILE="$TODO_DIR/report.txt"
+
+[省略]
 ```
 
 この他、`/etc/todo/config`には、カラー情報やタスクの表示順、タスクを表示する際のフィルターの設定方法について書いてあります。
