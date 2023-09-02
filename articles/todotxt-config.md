@@ -8,6 +8,7 @@ published_at: "2023-09-01 18:00"
 ---
 # TL;DR
 `/etc/todo/config`を読めば大体オーケー。
+https://github.com/todotxt/todo.txt-cli/blob/master/todo.cfg
 
 # Todo.txt とは？
 Todo という名前のテキスト・ファイルではありません。「Todo.txt」という名前のシェル上で動作するタスク管理アプリです。
