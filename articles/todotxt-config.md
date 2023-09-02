@@ -17,7 +17,7 @@ Todo という名前のテキスト・ファイルではありません。「Tod
 https://zenn.dev/zakkie/articles/e050332ca490a8
 
 詳しくは公式サイトやリポジトリをご覧ください。
-https://todotxt.org/
+http://todotxt.org/
 https://github.com/todotxt/todo.txt-cli
 
 # 環境
