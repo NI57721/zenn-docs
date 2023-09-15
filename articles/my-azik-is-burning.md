@@ -5,6 +5,7 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["skk", "azik", "vim", "skkeleton"]
 published: true
 published_at: "2023-07-15 00:00"
+publication_name: "vim_jp"
 ---
 この記事は[Vim駅伝](https://vim-jp.org/ekiden/)の2023-09-15の記事です。
 
