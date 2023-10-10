@@ -7,8 +7,9 @@ published: true
 published_at: "2023-07-15 00:00"
 publication_name: "vim_jp"
 ---
+:::message
 この記事は[Vim駅伝](https://vim-jp.org/ekiden/)の2023-09-15の記事です。
-
+:::
 ------
 先日、[とあるslack](https://vim-jp.org/docs/chat.html)で IME について雑談をしていたところ、AZIK ユーザーは何かしら独自の工夫をすることを余儀なくされているはずだから、みんなの設定をいろいろ見てみたいよねという話になりました。
 そこで、先ず隗より始めよということで私の SKK + AZIK の設定をご紹介したいと思います。
