@@ -4,7 +4,7 @@ emoji: "🔥"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["skk", "azik", "vim", "skkeleton"]
 published: true
-published_at: "2023-07-15 00:00"
+published_at: "2023-09-15 00:00"
 publication_name: "vim_jp"
 ---
 :::message
