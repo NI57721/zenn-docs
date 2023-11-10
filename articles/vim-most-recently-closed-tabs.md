@@ -65,7 +65,7 @@ noremap  <C-Up>    :if len(g:most_recently_closed) > 0 \|
 そして、直近に閉じたファイル名を`g:most_recently_closed`から取得して新しいタブで開くようにマッピングしています。
 これだけで、「間違って閉じちゃった！」という時に即座に開きなおすことができます。
 
-おまけで`ShowMostRecentlyClosedTabs()`という関数を定義しました。この関数を実行すると`g:most_recently_closed`を新しいバッファーで開いて簡単な編集や移動ができるようにしています。[^for-simplicity](冒頭の gif を参照)
+おまけで`ShowMostRecentlyClosedTabs()`という関数を定義しました。この関数を実行すると`g:most_recently_closed`を新しいバッファーで開いて、`g:most_recently_closed`の任意のパスを削除したり任意のパスに移動したりできるようにしています。[^for-simplicity](冒頭の gif を参照)
 
 # おまけ
 私のタブ関連のキーバインド。
@@ -84,7 +84,7 @@ noremap  <expr> <C->>  ':tabmove +' .. v:count1 .. '<CR>'
 nnoremap gr        <Cmd>tabnext<CR><C-G>
 nnoremap gR        <Cmd>tabprevious<CR><C-G>
 
-" 開いているタブとウィンドウに変更が無いなら閉じる
+" 変更の無いタブとウィンドウを全て閉じる
 cabbr qa tabdo windo if !&modified \| try \| close \| catch \| quit \| endtry \| endif
 
 " 開いているタブとウィンドウを問答無用で閉じる
