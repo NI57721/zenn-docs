@@ -8,7 +8,7 @@ published_at: "2023-12-08 18:00"
 publication_name: "vim_jp"
 ---
 :::message
-この記事は[Vim Advent Calendar](https://qiita.com/advent-calendar/2023/vim)の8日目の記事です。
+この記事は[Vim Advent Calendar 2023](https://qiita.com/advent-calendar/2023/vim)の8日目の記事です。
 :::
 ------
 みなさん、暗記は好きですか？　私も好きです。
