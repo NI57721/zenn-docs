@@ -30,7 +30,7 @@ https://github.com/NI57721/vim-shakyo
 
 # 使い方
 vimrcに以下のようなマッピングを設定しておくと良いでしょう。
-`<Plug>(shakyo-clue)`は shakyo モードを抜けて元のバッファーに戻ります。
+`<Plug>(shakyo-quit)`は shakyo モードを抜けて元のバッファーに戻ります。
 ```vim:vimrc
 nnoremap <leader>r <Plug>(shakyo-run)
 nnoremap <leader>q <Plug>(shakyo-quit)
