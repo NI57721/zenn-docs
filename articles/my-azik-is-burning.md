@@ -25,7 +25,7 @@ cf. [Vim を IME として使いこなす](https://zenn.dev/vim_jp/articles/14ab
 AZIK の入力方法はローマ字入力の拡張となっており、一度に AZIK の全てを覚えなくとも段階的に移行できる点が魅力です。
 
 詳しくは、AZIK の考案者である木村 清氏のウェブサイトをご覧ください。
-[AZIK総合解説書](https://hp.vector.co.jp/authors/VA002116/azik/azikinfo.htm)
+[AZIK総合解説書](https://web.archive.org/web/20240720205500/http://hp.vector.co.jp/authors/VA002116/azik/azikinfo.htm) ※Internet Archive へのリンクです。
 
 ## SKK とは？
 日本語入力システムの一です。
